@@ -1,0 +1,33 @@
+#prfx_meta{
+	overflow: hidden;
+	padding-bottom: 1em;
+}
+
+#prfx_meta p{
+	clear: both;
+}
+
+#prfx_meta legend {
+	font-weight: bold;
+}
+#prfx_meta fieldset {
+	float: left;
+	margin-right: 2em;
+	margin-bottom: 1em;
+}
+
+.prfx-row-title{
+	display: block;
+	float: left;
+	width: 200px;
+}
+
+.prfx-row-content{
+	float: left;
+	padding-bottom: 1em;
+}
+
+.prfx-row-content label{
+	display: block;
+	line-height: 1.75em;
+}
