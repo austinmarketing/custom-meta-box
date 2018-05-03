@@ -1,37 +1,36 @@
 <?php
 /**
- * Displays call to action navigation at the bottom of page contents
- * Requires plugin to enter and save contents - Custom Meta Box Template by Austin Marketing
- *
+ * THIS FILE IS WHAT IS CALLED IN YOUR CUSTOM THEME by using ...  <?php get_template_part( '/template-parts/meta-box' ); ?>
+ * 
  */
 
 ?>
 
-									<?php
+						<?php
  
-										// Retrieves the stored values from the database
-										$meta_value_1_url = get_post_meta( get_the_ID(), 'meta-text-1-url', true );
-									    $meta_value_1_1 = get_post_meta( get_the_ID(), 'meta-text-1-1', true );
-									    $meta_value_1_2 = get_post_meta( get_the_ID(), 'meta-text-1-2', true );
-									    $meta_value_1_act = get_post_meta( get_the_ID(), 'meta-text-1-action', true );
-									    $meta_value_color_1 = get_post_meta( get_the_ID(), 'meta-color-1', true ); 
+							// Retrieves the stored values from the database
+							$meta_value_1_url = get_post_meta( get_the_ID(), 'meta-text-1-url', true );
+							$meta_value_1_1 = get_post_meta( get_the_ID(), 'meta-text-1-1', true );
+							$meta_value_1_2 = get_post_meta( get_the_ID(), 'meta-text-1-2', true );
+							$meta_value_1_act = get_post_meta( get_the_ID(), 'meta-text-1-action', true );
+							$meta_value_color_1 = get_post_meta( get_the_ID(), 'meta-color-1', true ); 
 										    
-										$meta_value_2_url = get_post_meta( get_the_ID(), 'meta-text-2-url', true );
-									    $meta_value_2_1 = get_post_meta( get_the_ID(), 'meta-text-2-1', true );
-									    $meta_value_2_2 = get_post_meta( get_the_ID(), 'meta-text-2-2', true );
-									    $meta_value_2_act = get_post_meta( get_the_ID(), 'meta-text-2-action', true );
-									    $meta_value_color_2 = get_post_meta( get_the_ID(), 'meta-color-2', true );
+							$meta_value_2_url = get_post_meta( get_the_ID(), 'meta-text-2-url', true );
+							$meta_value_2_1 = get_post_meta( get_the_ID(), 'meta-text-2-1', true );
+							$meta_value_2_2 = get_post_meta( get_the_ID(), 'meta-text-2-2', true );
+							$meta_value_2_act = get_post_meta( get_the_ID(), 'meta-text-2-action', true );
+							$meta_value_color_2 = get_post_meta( get_the_ID(), 'meta-color-2', true );
 										    
-									    $meta_value_3_url = get_post_meta( get_the_ID(), 'meta-text-3-url', true );
-									    $meta_value_3_1 = get_post_meta( get_the_ID(), 'meta-text-3-1', true );
-									    $meta_value_3_2 = get_post_meta( get_the_ID(), 'meta-text-3-2', true );
-									    $meta_value_3_act = get_post_meta( get_the_ID(), 'meta-text-3-action', true );
-									    $meta_value_color_3 = get_post_meta( get_the_ID(), 'meta-color-3', true );
+							$meta_value_3_url = get_post_meta( get_the_ID(), 'meta-text-3-url', true );
+							$meta_value_3_1 = get_post_meta( get_the_ID(), 'meta-text-3-1', true );
+							$meta_value_3_2 = get_post_meta( get_the_ID(), 'meta-text-3-2', true );
+							$meta_value_3_act = get_post_meta( get_the_ID(), 'meta-text-3-action', true );
+							$meta_value_color_3 = get_post_meta( get_the_ID(), 'meta-color-3', true );
 										    
 									?>
 										
-									<nav class="call-to-action">
-										<?php // Checks and displays the retrieved value; ?>
+				<nav class="call-to-action">
+					<?php // Checks and displays the retrieved value; ?>
 										
 		<?php // if( !empty( $meta_value_1_url || $meta_value_1_1 || $meta_value_1_2 || $meta_value_1_act ) ) : ?>
 				<a href="<?php if( !empty( $meta_value_1_url ) ) { echo $meta_value_1_url; } ?>" class="grid-33">
@@ -58,6 +57,6 @@
 				</a>
 		<?php // endif; ?>					
 										
-									</nav>
+				</nav>
 									
 									
