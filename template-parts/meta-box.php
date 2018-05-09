@@ -5,7 +5,7 @@
  *
  */
 
-// THIS FILE NEEDS TO BE ADDED IN YOUR TEMPLATE USING get_template_part( '/template-parts/meta-box' )
+/* THIS FILE NEEDS TO BE ADDED IN YOUR TEMPLATE USING get_template_part( '/template-parts/meta-box' ) */
 
 ?>
 
